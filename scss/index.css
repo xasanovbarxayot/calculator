@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.calc_container {
+  background-color: #21006f;
+  height: 100vh;
+  width: 100vw;
+}
+
+.calc_container h1 {
+  text-align: center;
+  color: wheat;
+  font-size: 3em;
+}
+
+.calc_container form {
+  margin-left: 35vw;
+  margin-top: 15vh;
+  width: 300px;
+  height: 400px;
+  padding: 20px;
+  background-color: #0a002e;
+  border-radius: 12px;
+  -webkit-box-shadow: 5px 5px 15px 2px rgba(148, 148, 148, 0.1);
+          box-shadow: 5px 5px 15px 2px rgba(148, 148, 148, 0.1);
+}
+
+.calc_container #display {
+  margin: 15px auto;
+  padding: 10px 4px;
+  font-size: 18px;
+  width: 260px;
+  color: #a2a2a2;
+  border-radius: 10px;
+  -webkit-box-shadow: 5px 5px 15px 2px rgba(148, 148, 148, 0.1);
+          box-shadow: 5px 5px 15px 2px rgba(148, 148, 148, 0.1);
+}
+
+.calc_container input {
+  border: none;
+  outline: none;
+}
+
+.calc_container input[type=button] {
+  font-family: sans-serif;
+  width: 65px;
+  height: 65px;
+  font-size: 28px;
+  background-color: #0a002e;
+  color: #c4c4c4;
+  opacity: 0.8;
+  border-radius: 50%;
+  -webkit-box-shadow: 5px 5px 15px 2px rgba(148, 148, 148, 0.1);
+          box-shadow: 5px 5px 15px 2px rgba(148, 148, 148, 0.1);
+}
+
+.calc_container input[type=button]:hover {
+  color: #00d6fc;
+  background: -webkit-gradient(linear, left top, left bottom, from(#020024), color-stop(0%, #08086e), color-stop(0%, #090979), to(#2a66f4));
+  background: linear-gradient(180deg, #020024 0%, #08086e 0%, #090979 0%, #2a66f4 100%);
+  -webkit-box-shadow: 5px 5px 15px 2px rgba(34, 10, 255, 0.4);
+          box-shadow: 5px 5px 15px 2px rgba(34, 10, 255, 0.4);
+}
+/*# sourceMappingURL=index.css.map */
